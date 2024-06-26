@@ -44,7 +44,7 @@ for (let i = 0; i < vehicles.length; i++) {
 }
 
 // Виведення інформації про транспортні засоби, які є у робочому стані
-console.log("\nТранспортні засоби у робочому стані:");
+console.log("\Транспортні засоби у робочому стані:");
 for (let i = 0; i < vehicles.length; i++) {
     if (vehicles[i].isOperational) {
         console.log(`Модель: ${vehicles[i].model}, Тип: ${vehicles[i].type}, Рік випуску: ${vehicles[i].year}, Робочий стан: ${vehicles[i].isOperational}`);
